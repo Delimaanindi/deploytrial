@@ -74,6 +74,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(96, 59, 88);
     font-size: 28px;
+    margin-top: 5rem;
 }
 
 #rent {
@@ -121,4 +122,11 @@ h4 {
 #note {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+#prof {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
 }
