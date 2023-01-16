@@ -8,30 +8,26 @@
     <title>About me</title>
 </head>
 <body>
+    <section id="nav">
+        <a class="homebar" href="index.html">Delima.work</a>
+        <div class="menu">
+            <a href="https://www.linkedin.com/in/dinda-anindi-688525125/" id="link">My linkedin</a>
+            <a href="./assets/Dinda Delima Anindi.pdf" id="link" target="_blank">Curriculum Vitae</a>
+        </div>
+    </section>
     <div class="about-con">
     <section class="photo-con">
         <p id="about">About Me</p>
         <img src="./assets/images/photo.jpg" alt="myphoto" id="myphoto">
         <h3 id="profil">Dinda Delima Anindi</h3>
         <h3 id="profil2">Frontend Engineer</h3>
-        <button id="show-btn">>></button>
     </section>
-    <section class="desc">
-        <h2>Hi!</h2>
-        <p id="bla">My journey to programming world started when i was an Astronomy student at Institut Teknologi Bandung (ITB). 
-            I coded using Fortran to analyze raw data and python to visualize my data for my thesis. 
-            At that time i had no interest nor plan to be a programmer. 
-            However, when i got a job at a company who offered me to be their programmer, 
-            i started to try and learned basic coding using Clojure. I really enjoy learning programming languages and code as a job. 
-            Therefore, i decided to dive deeper into programming world and found out the role as Frontend Engineer. 
-            I enrolled myself in Frontend Engineer Bootcamp held by Binar Academy and graduated in December 2022. 
-            The programming languages that i learned during bootcamp were ReactJs, HTML5, CSS, Bootstrap and vanilla Javascript. 
-            Final Project of the bootcamp was a car rental website which the link is provided in the homepage. 
-            Besides, i also created a comic reading website using ReactJS, while a simple calculator and 
-            temperature converter was coded with vanilla Javascript, HTML5, and CSS. 
-        </p>
-    </section>
+    <button id="show-btn" onclick="myDescription()">>></button>
+    <div id="desc">
+        <p id="bla"></p>
+    </div>   
 </div>
 <a href="index.html"><button class="back-btn">Back to home</button></a>
 </body>
 </html>
+<script src="about.js"></script>
